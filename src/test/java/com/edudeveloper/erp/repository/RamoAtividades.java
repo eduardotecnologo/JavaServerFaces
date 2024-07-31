@@ -13,6 +13,7 @@ import javax.persistence.criteria.CriteriaQuery;
 public class RamoAtividades implements Serializable{
 	private static final long serialVersionUID = 1L;
 	
+	@Inject
 	private EntityManager manager;
 	
 	public RamoAtividades() {

@@ -1,9 +1,6 @@
 package com.edudeveloper.erp.model;
-import com.edudeveloper.erp.model.RamoAtividade;
 import java.io.Serializable;
 import java.util.Date;
-import java.util.Objects;
-
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.EnumType;

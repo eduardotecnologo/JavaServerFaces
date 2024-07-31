@@ -15,7 +15,6 @@ public class CamadaPersistencia {
 	 public static void main(String[] args) {
 	        EntityManagerFactory emf = Persistence.createEntityManagerFactory("EdudeveloperPU");
 
-
 	        EntityManager em = emf.createEntityManager();
 
 	        em.getTransaction().begin();
